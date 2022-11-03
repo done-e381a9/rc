@@ -1,0 +1,12 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+#  name = xxx
+#  email = xxx@example.com
+
+# [code]
+#   editor = vim -c \"set fenc=utf-8\"
+
+[alias]
+  graph = log --decorate --graph --pretty=\"format:%C(yellow)%h%C(auto)%d %C(reset)%s %C(green)%an %C(cyan)%ai%C(reset)\"
+
